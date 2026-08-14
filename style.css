@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+
+}
+
+nav a {
+    display: block;
+    width: 90px;
+    padding: 8px;
+    border: 2px solid black;
+    color: blue;
+    text-align: center;
+}
+
+.projetos {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.projeto {
+    width: 210px;
+    height: 150px;
+    padding: 0px;
+    border: 2px solid black;
+
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+span {
+    padding: 2px 5px;
+    border: 2px solid black;
+    padding: 0px;
+}
+
+.rodape {
+    padding: 10px;
+    border: 2px solid black;
+    height: 45px;
+}
+
+.página{
+    
+   margin-block: 5px;
+}
